@@ -1,0 +1,48 @@
+.category .categoryhead {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+.category ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.category ul>li {
+    padding: 0px 20px 0;
+    text-transform: uppercase;
+}
+
+.productslist {
+    padding: 30px 0 0;
+}
+
+.productslist .card {
+    border: 1px solid #ded9d9;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    min-height: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.productslist .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.productslist .card>img {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 20px;
+}
+
+.productslist .card p {
+    text-align: center;
+}

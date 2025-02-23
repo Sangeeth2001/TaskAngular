@@ -1,0 +1,7 @@
+.header .logo{display: flex; gap: 20px;  }
+.header .logo>a>img { width:78px; }
+.header{ padding: 30px 15px; border-bottom: 1px solid #000; margin: 0 0 35px; }
+.header .logo .searchbox>input{ margin-left: 100px; } 
+.header .logo .cart{ margin-left: 170px; }
+.header .logo .cart>img{ padding-left: 20px; width: 60px; cursor: pointer; }
+.header .logo .profile>a>img { width: 35px; }

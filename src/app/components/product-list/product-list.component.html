@@ -1,0 +1,22 @@
+<div class="category">
+    <h4 class="categoryhead">Category</h4>
+    <ul>
+        <li *ngFor="let category of categories">
+            {{ category }}
+        </li>
+    </ul>
+</div>
+<div class="productslist">
+    <div class="box">
+        <div class="row">
+        <ng-container *ngFor="let products of productlist">  
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="img-fluid mx-auto" src="{{products.image}}" alt="image" />
+                        <p>{{products.title}}</p>
+                    </div>
+                </div>
+        </ng-container>
+    </div>
+    </div>
+</div>
